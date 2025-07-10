@@ -3,7 +3,7 @@
     "startLocation": {
       "description": "Mustang,Nepal",
       "type": "Point",
-      "coordinates": [28.9985, 83.8473],
+      "coordinates": [83.8473, 28.9985],
       "address": "Mustang, Gandaki Province, Nepal"
     },
     "ratingsAverage": 4.8,
@@ -29,28 +29,28 @@
         "_id": "5c88fa8cf4afda39709c2959",
         "description": "Tatopani Hot Spring",
         "type": "Point",
-        "coordinates": [28.4961, 83.6542],
+        "coordinates": [83.6542, 28.4961],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2958",
         "description": "Marpha",
         "type": "Point",
-        "coordinates": [28.8151, 83.6455],
+        "coordinates": [83.6455, 28.8151],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2957",
         "description": "Muktinath Temple",
         "type": "Point",
-        "coordinates": [28.8172, 83.8719],
+        "coordinates": [83.8719, 28.8172],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2956",
         "description": "Jomsom",
         "type": "Point",
-        "coordinates": [28.7746, 83.773],
+        "coordinates": [83.773, 28.7746],
         "day": 4
       }
     ]
@@ -59,7 +59,7 @@
     "startLocation": {
       "description": "Kaski, Nepal",
       "type": "Point",
-      "coordinates": [28.2096, 83.9856],
+      "coordinates": [83.9856, 28.2096],
       "address": "Pokhara, Gandaki Province, 33700, Nepal"
     },
     "ratingsAverage": 5,
@@ -85,28 +85,28 @@
         "_id": "5c88fa8cf4afda39709c2954",
         "description": "Fewa Taal",
         "type": "Point",
-        "coordinates": [28.2154, 83.9453],
+        "coordinates": [83.9453, 28.2154],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2953",
         "description": "Bat Cave",
         "type": "Point",
-        "coordinates": [28.26764, 83.97596],
+        "coordinates": [83.97596, 28.26764],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2952",
         "description": "Mahendra Cave",
         "type": "Point",
-        "coordinates": [28.2718, 83.97944],
+        "coordinates": [83.97944, 28.2718],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2952",
         "description": "Devi's Fall",
         "type": "Point",
-        "coordinates": [28.18974, 83.95863],
+        "coordinates": [83.95863, 28.18974],
         "day": 3
       }
     ]
@@ -115,7 +115,7 @@
     "startLocation": {
       "description": "Rupandehi, Nepal",
       "type": "Point",
-      "coordinates": [27.533, 83.3789],
+      "coordinates": [83.3789, 27.533],
       "address": "Lumbini, Rupandehi District, Lumbini Province, 32914, Nepal"
     },
     "ratingsAverage": 4.5,
@@ -141,14 +141,14 @@
         "_id": "5c88fa8cf4afda39709c295c",
         "description": "Lumbini",
         "type": "Point",
-        "coordinates": [27.9207, 82.7347],
+        "coordinates": [82.7347, 27.9207],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295b",
         "description": "Lumbini Palace Resort",
         "type": "Point",
-        "coordinates": [27.58464, 83.37683],
+        "coordinates": [83.37683, 27.58464],
         "day": 2
       }
     ]
@@ -157,7 +157,7 @@
     "startLocation": {
       "description": "Chitwan, Nepal",
       "type": "Point",
-      "coordinates": [27.5291, 84.3542],
+      "coordinates": [84.3542, 27.5291],
       "address": "Chitwan, Bagmati Province, 44200, Nepal"
     },
     "ratingsAverage": 4.7,
@@ -183,14 +183,14 @@
         "_id": "5c88fa8cf4afda39709c2965",
         "description": "Narayani Sightseeing",
         "type": "Point",
-        "coordinates": [27.6833, 84.4167],
+        "coordinates": [84.4167, 27.6833],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2964",
         "description": "Chitwan National Park",
         "type": "Point",
-        "coordinates": [27.5193, 84.3135],
+        "coordinates": [84.3135, 27.5193],
         "day": 2
       }
     ]
@@ -199,7 +199,7 @@
     "startLocation": {
       "description": "Kathmandu, Nepal",
       "type": "Point",
-      "coordinates": [27.7103, 85.3222],
+      "coordinates": [85.3222, 27.7103],
       "address": "Kathmandu, Bagmati Province, 44600, Nepal"
     },
     "ratingsAverage": 4.6,
@@ -225,28 +225,28 @@
         "_id": "5c88fa8cf4afda39709c2960",
         "description": "Swoyambhu Mahachaitya",
         "type": "Point",
-        "coordinates": [27.7149, 85.2904],
+        "coordinates": [85.2904, 27.7149],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295f",
         "description": "Central Zoo",
         "type": "Point",
-        "coordinates": [27.6727, 85.3118],
+        "coordinates": [85.3118, 27.6727],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c295e",
         "description": "Pashupatinath Temple",
         "type": "Point",
-        "coordinates": [27.7105, 85.3488],
+        "coordinates": [85.3488, 27.7105],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0006",
         "description": "Chandragiri Cable Car",
         "type": "Point",
-        "coordinates": [27.68655, 85.21443],
+        "coordinates": [85.21443, 27.68655],
         "day": 3
       }
     ]
@@ -255,12 +255,12 @@
     "startLocation": {
       "description": "Janakpur,Nepal",
       "type": "Point",
-      "coordinates": [26.7275, 85.9257],
+      "coordinates": [85.9257, 26.7275],
       "address": "Janakpur, Madhesh Province, Nepal"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
-    "images": ["janakpur1.webp", "janakpur2.jpg", "janakpur3.jpg"],
+    "images": ["janakpur1.jpg", "janakpur2.jpg", "janakpur3.jpg"],
     "startDates": [
       "2021-06-19T09:00:00.000Z",
       "2021-07-20T09:00:00.000Z",
@@ -282,28 +282,28 @@
         "_id": "5c88fa8cf4afda39709c0008",
         "description": "Janaki Temple",
         "type": "Point",
-        "coordinates": [26.7304, 85.9256],
+        "coordinates": [85.9256, 26.7304],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0009",
         "description": "Ganga Sagar",
         "type": "Point",
-        "coordinates": [26.7287, 85.9301],
+        "coordinates": [85.9301, 26.7287],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0009",
         "description": "Ram Mandir",
         "type": "Point",
-        "coordinates": [26.7289, 85.9283],
+        "coordinates": [85.9283, 26.7289],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0010",
         "description": "Dhanusadham",
         "type": "Point",
-        "coordinates": [26.8712, 86.0428],
+        "coordinates": [86.0428, 26.8712],
         "day": 2
       }
     ]
@@ -312,7 +312,7 @@
     "startLocation": {
       "description": "Kaski, Nepal",
       "type": "Point",
-      "coordinates": [28.3781, 83.81],
+      "coordinates": [83.81, 28.3781],
       "address": "Ghandruk, Gandaki Province, 33700, Nepal"
     },
     "ratingsAverage": 5,
@@ -338,21 +338,21 @@
         "_id": "5c88fa8cf4afda39709c0012",
         "description": "Ghandruk ",
         "type": "Point",
-        "coordinates": [28.3781, 83.81],
+        "coordinates": [83.81, 28.3781],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0013",
         "description": "Landruk",
         "type": "Point",
-        "coordinates": [28.3722, 83.8256],
+        "coordinates": [83.8256, 28.3722],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0014",
         "description": "Dhampus ",
         "type": "Point",
-        "coordinates": [28.3069, 83.842],
+        "coordinates": [83.842, 28.3069],
         "day": 3
       }
     ]
@@ -361,7 +361,7 @@
     "startLocation": {
       "description": "Myagdi, Nepal",
       "type": "Point",
-      "coordinates": [28.6029, 83.3362],
+      "coordinates": [83.3362, 28.6029],
       "address": "Poon Hill, Ghorepani, Myagdi District, Gandaki Province, Nepal"
     },
     "ratingsAverage": 4.5,
@@ -387,28 +387,28 @@
         "_id": "5c88fa8cf4afda39709c0016",
         "description": "ulleri",
         "type": "Point",
-        "coordinates": [28.4013, 83.6932],
+        "coordinates": [83.6932, 28.4013],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0017",
         "description": "Ghorepani",
         "type": "Point",
-        "coordinates": [28.4006, 83.6958],
+        "coordinates": [83.6958, 28.4006],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0018",
         "description": "Poon Hill",
         "type": "Point",
-        "coordinates": [28.4007, 83.6919],
+        "coordinates": [83.6919, 28.4007],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c0019",
         "description": "Pokhara",
         "type": "Point",
-        "coordinates": [28.2096, 83.9856],
+        "coordinates": [83.9856, 28.2096],
         "day": 4
       }
     ]
@@ -417,7 +417,7 @@
     "startLocation": {
       "description": "Mugu, Nepal",
       "type": "Point",
-      "coordinates": [29.5286, 82.0625],
+      "coordinates": [82.0625, 29.5286],
       "address": "Rara, Karnali Province, 21300, Nepal"
     },
     "ratingsAverage": 4.7,
@@ -443,28 +443,28 @@
         "_id": "5c88fa8cf4afda39709c0021",
         "description": "Surkhet",
         "type": "Point",
-        "coordinates": [28.5175, 81.7787],
+        "coordinates": [81.7787, 28.5175],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0022",
         "description": "Kalikot",
         "type": "Point",
-        "coordinates": [29.2089, 81.7349],
+        "coordinates": [81.7349, 29.2089],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0023",
         "description": "Rara Lake",
         "type": "Point",
-        "coordinates": [29.5239, 82.0788],
+        "coordinates": [82.0788, 29.5239],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c0024",
         "description": "Kohalpur",
         "type": "Point",
-        "coordinates": [28.2118, 81.7131],
+        "coordinates": [81.7131, 28.2118],
         "day": 4
       }
     ]
@@ -473,7 +473,7 @@
     "startLocation": {
       "description": "Kaski, Nepal",
       "type": "Point",
-      "coordinates": [28.2622, 84.0167],
+      "coordinates": [84.0167, 28.2622],
       "address": "Annapurna Base Camp, Gandaki Province, 33700, Nepal"
     },
     "ratingsAverage": 4.6,
@@ -499,35 +499,35 @@
         "_id": "5c88fa8cf4afda39709c0026",
         "description": "Sinuwa",
         "type": "Point",
-        "coordinates": [28.4301, 83.8327],
+        "coordinates": [83.8327, 28.4301],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0027",
         "description": "Machhapuchhre Base Camp",
         "type": "Point",
-        "coordinates": [28.526692, 83.907845],
+        "coordinates": [83.907845, 28.526692],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0028",
         "description": "Annapurna Base Camp",
         "type": "Point",
-        "coordinates": [28.53, 83.878],
+        "coordinates": [83.878, 28.53],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c0029",
         "description": "Jhinu Danda",
         "type": "Point",
-        "coordinates": [28.4097, 83.8238],
+        "coordinates": [83.8238, 28.4097],
         "day": 4
       },
       {
         "_id": "5c88fa8cf4afda39709c0030",
         "description": "Pokhara",
         "type": "Point",
-        "coordinates": [28.2096, 83.9856],
+        "coordinates": [83.9856, 28.2096],
         "day": 5
       }
     ]
@@ -536,7 +536,7 @@
     "startLocation": {
       "description": "Lalitpur, Nepal",
       "type": "Point",
-      "coordinates": [27.6588, 85.3247],
+      "coordinates": [85.3247, 27.6588],
       "address": "Lalitpur, Bagmati Province, 44700, Nepal"
     },
     "ratingsAverage": 4.8,
@@ -562,21 +562,21 @@
         "_id": "5c88fa8cf4afda39709c0032",
         "description": "Patan Durbar Square",
         "type": "Point",
-        "coordinates": [27.6727, 85.3253],
+        "coordinates": [85.3253, 27.6727],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0033",
         "description": "Central Zoo",
         "type": "Point",
-        "coordinates": [27.6727, 85.3118],
+        "coordinates": [85.3118, 27.6727],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0034",
         "description": "Hiranya Varna Mahavihar",
         "type": "Point",
-        "coordinates": [27.67536, 85.32447],
+        "coordinates": [85.32447, 27.67536],
         "day": 3
       }
     ]
@@ -585,7 +585,7 @@
     "startLocation": {
       "description": "Tanahun, Nepal",
       "type": "Point",
-      "coordinates": [27.917, 84.4068],
+      "coordinates": [84.4068, 27.917],
       "address": "Bandipur-04, Thuldhunga, Tanahun District, Gandaki Province, 33904, Nepal"
     },
     "ratingsAverage": 4.4,
@@ -611,14 +611,14 @@
         "_id": "5c88fa8cf4afda39709c0036",
         "description": "Bandipur Local Exploration",
         "type": "Point",
-        "coordinates": [27.917, 84.4068],
+        "coordinates": [84.4068, 27.917],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0037",
         "description": "Nature and Caves",
         "type": "Point",
-        "coordinates": [27.94849, 84.419],
+        "coordinates": [84.419, 27.94849],
         "day": 2
       }
     ]
@@ -627,7 +627,7 @@
     "startLocation": {
       "description": "Manang, Nepal",
       "type": "Point",
-      "coordinates": [28.6667, 84.0167],
+      "coordinates": [84.0167, 28.6667],
       "address": "Manang, Manang District, Gandaki Province, 33500, Nepal"
     },
     "ratingsAverage": 4.6,
@@ -653,28 +653,28 @@
         "_id": "5c88fa8cf4afda39709c0039",
         "description": "Besisahar",
         "type": "Point",
-        "coordinates": [28.1962, 84.3857],
+        "coordinates": [84.3857, 28.1962],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0040",
         "description": "Manang Sightseeing",
         "type": "Point",
-        "coordinates": [28.6667, 84.0167],
+        "coordinates": [84.0167, 28.6667],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0041",
         "description": "Valley Tour",
         "type": "Point",
-        "coordinates": [28.6369, 84.0394],
+        "coordinates": [84.0394, 28.6369],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c0042",
         "description": "Manang to Jagat",
         "type": "Point",
-        "coordinates": [28.4147, 84.4066],
+        "coordinates": [84.4066, 28.4147],
         "day": 4
       }
     ]
@@ -683,7 +683,7 @@
     "startLocation": {
       "description": "Baglung,Nepal",
       "type": "Point",
-      "coordinates": [28.2774, 83.5816],
+      "coordinates": [83.5816, 28.2774],
       "address": "Baglung, Baglung District, Gandaki Province, 33300, Nepal"
     },
     "ratingsAverage": 4.2,
@@ -709,21 +709,21 @@
         "_id": "5c88fa8cf4afda39709c0044",
         "description": "Camping at Dhorpatan",
         "type": "Point",
-        "coordinates": [28.5001, 83.0645],
+        "coordinates": [83.0645, 28.5001],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0045",
         "description": "Dhorpatan Hunting Expedition",
         "type": "Point",
-        "coordinates": [28.5856, 82.9932],
+        "coordinates": [82.9932, 28.5856],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0046",
         "description": "Dhorpatan Hunting Expedition",
         "type": "Point",
-        "coordinates": [28.5856, 82.9932],
+        "coordinates": [82.9932, 28.5856],
         "day": 3
       }
     ]
@@ -732,7 +732,7 @@
     "startLocation": {
       "description": "Bardiya, Nepal",
       "type": "Point",
-      "coordinates": [28.3102, 81.4279],
+      "coordinates": [81.4279, 28.3102],
       "address": "Bardiya, Bardiya District, Lumbini Province, 21800, Nepal"
     },
     "ratingsAverage": 4.8,
@@ -758,21 +758,21 @@
         "_id": "5c88fa8cf4afda39709c0048",
         "description": "Village Tour",
         "type": "Point",
-        "coordinates": [28.316528, 81.387199],
+        "coordinates": [81.387199, 28.316528],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c0049",
         "description": "Jungle Walk",
         "type": "Point",
-        "coordinates": [28.3649, 81.5596],
+        "coordinates": [81.5596, 28.3649],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c0050",
         "description": "Jeep Safari",
         "type": "Point",
-        "coordinates": [28.3649, 81.5596],
+        "coordinates": [81.5596, 28.3649],
         "day": 3
       }
     ]

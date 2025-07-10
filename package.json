@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "TravelEase",
   "version": "1.0.0",
-  "description": "learning node, express and mongoDB",
+  "description": "TravelEase: Book Your Next Tour",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
@@ -12,7 +12,7 @@
     "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
-  "author": "Sudeep Gautam",
+  "author": "Sudeep Gautam, Binod Bhandari, Shivanuj Sharma",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
