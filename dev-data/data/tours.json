@@ -1,469 +1,779 @@
 [
   {
     "startLocation": {
-      "description": "Miami, USA",
+      "description": "Mustang,Nepal",
       "type": "Point",
-      "coordinates": [-80.185942, 25.774772],
-      "address": "301 Biscayne Blvd, Miami, FL 33132, USA"
+      "coordinates": [28.9985, 83.8473],
+      "address": "Mustang, Gandaki Province, Nepal"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
-    "images": ["tour-2-1.jpg", "tour-2-2.jpg", "tour-2-3.jpg"],
+    "images": ["mustang1.jpg", "mustang2.jpg", "mustang3.jpg"],
     "startDates": [
       "2021-06-19T09:00:00.000Z",
       "2021-07-20T09:00:00.000Z",
       "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2955",
-    "name": "The Sea Explorer",
-    "duration": 7,
+    "name": "Mystic Mustang Adventure",
+    "duration": 4,
     "maxGroupSize": 15,
     "difficulty": "medium",
-    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
-    "price": 497,
-    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "imageCover": "tour-2-cover.jpg",
+    "guides": ["5c8a24282f8fb814b56fb55c", "5c8a245f8f8fb814b56fe184"],
+    "price": 10000,
+    "summary": "Discover the breathtaking landscapes of Mustang, Nepal through scenic treks and cultural exploration.",
+    "description": "Journey into the mystical landscapes of Mustang, Nepal — a region known for its dramatic cliffs, ancient monasteries, and vibrant Tibetan-influenced culture. Explore the hidden trails of the Forbidden Kingdom, where centuries-old caves and panoramic views of the Himalayas await at every turn.This unforgettable adventure takes you through remote villages, sacred temples, and windswept valleys, offering a rare glimpse into the preserved traditions of this high-altitude desert. From crossing deep gorges to experiencing the local hospitality, every step in Mustang is a story waiting to be told. Perfect for cultural seekers and trekking enthusiasts alike, this tour is a gateway to one of Nepal's most captivating and untouched regions",
+    "imageCover": "mustang1.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2959",
-        "description": "Lummus Park Beach",
+        "description": "Tatopani Hot Spring",
         "type": "Point",
-        "coordinates": [-80.128473, 25.781842],
+        "coordinates": [28.4961, 83.6542],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2958",
-        "description": "Islamorada",
+        "description": "Marpha",
         "type": "Point",
-        "coordinates": [-80.647885, 24.909047],
+        "coordinates": [28.8151, 83.6455],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2957",
-        "description": "Sombrero Beach",
+        "description": "Muktinath Temple",
         "type": "Point",
-        "coordinates": [-81.0784, 24.707496],
+        "coordinates": [28.8172, 83.8719],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2956",
-        "description": "West Key",
+        "description": "Jomsom",
         "type": "Point",
-        "coordinates": [-81.768719, 24.552242],
-        "day": 5
+        "coordinates": [28.7746, 83.773],
+        "day": 4
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Banff, CAN",
+      "description": "Kaski, Nepal",
       "type": "Point",
-      "coordinates": [-115.570154, 51.178456],
-      "address": "224 Banff Ave, Banff, AB, Canada"
+      "coordinates": [28.2096, 83.9856],
+      "address": "Pokhara, Gandaki Province, 33700, Nepal"
     },
     "ratingsAverage": 5,
     "ratingsQuantity": 9,
-    "images": ["tour-1-1.jpg", "tour-1-2.jpg", "tour-1-3.jpg"],
+    "images": ["pokhara1.jpg", "pokhara2.jpg", "pokhara3.jpg"],
     "startDates": [
-      "2021-04-25T09:00:00.000Z",
+      "2021-06-19T09:00:00.000Z",
       "2021-07-20T09:00:00.000Z",
-      "2021-10-05T09:00:00.000Z"
+      "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2951",
-    "name": "The Forest Hiker",
-    "duration": 5,
+    "name": "Pokhara Adventure Escape",
+    "duration": 3,
     "maxGroupSize": 25,
     "difficulty": "easy",
-    "guides": [
-      "5c8a21d02f8fb814b56fa189",
-      "5c8a201e2f8fb814b56fa186",
-      "5c8a1f292f8fb814b56fa184"
-    ],
-    "price": 397,
-    "summary": "Breathtaking hike through the Canadian Banff National Park",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageCover": "tour-1-cover.jpg",
+    "guides": ["5c8a245f8f8fb814b56fe184", "5c8a24822f8fb814b56ff554"],
+    "price": 9000,
+    "summary": "Scenic journey through the lakes, temples, and breathtaking Himalayan views of Pokhara, Nepal.",
+    "description": "Explore the natural beauty and cultural charm of Pokhara, Nepal. Walk along the serene Phewa Lake, marvel at the stunning Annapurna mountain range, and discover hidden temples and peaceful monasteries throughout the city.\n\nThis tour offers a perfect blend of relaxation and adventure. From peaceful boat rides to thrilling paragliding flights, Pokhara promises unforgettable moments for every traveler. Witness spectacular sunrise views from Sarangkot and immerse yourself in the tranquil atmosphere of this Himalayan paradise.",
+    "imageCover": "pokhara1.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2954",
-        "description": "Banff National Park",
+        "description": "Fewa Taal",
         "type": "Point",
-        "coordinates": [-116.214531, 51.417611],
+        "coordinates": [28.2154, 83.9453],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2953",
-        "description": "Jasper National Park",
+        "description": "Bat Cave",
         "type": "Point",
-        "coordinates": [-118.076152, 52.875223],
-        "day": 3
+        "coordinates": [28.26764, 83.97596],
+        "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2952",
-        "description": "Glacier National Park of Canada",
+        "description": "Mahendra Cave",
         "type": "Point",
-        "coordinates": [-117.490309, 51.261937],
-        "day": 5
+        "coordinates": [28.2718, 83.97944],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2952",
+        "description": "Devi's Fall",
+        "type": "Point",
+        "coordinates": [28.18974, 83.95863],
+        "day": 3
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Aspen, USA",
+      "description": "Rupandehi, Nepal",
       "type": "Point",
-      "coordinates": [-106.822318, 39.190872],
-      "address": "419 S Mill St, Aspen, CO 81611, USA"
+      "coordinates": [27.533, 83.3789],
+      "address": "Lumbini, Rupandehi District, Lumbini Province, 32914, Nepal"
     },
     "ratingsAverage": 4.5,
     "ratingsQuantity": 6,
-    "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
+    "images": ["lumbini1.jpg", "lumbini2.jpg", "lumbini3.jpg"],
     "startDates": [
-      "2022-01-05T10:00:00.000Z",
-      "2022-02-12T10:00:00.000Z",
-      "2023-01-06T10:00:00.000Z"
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295a",
-    "name": "The Snow Adventurer",
-    "duration": 4,
+    "name": "Lumbini - Enlightenment Path",
+    "duration": 2,
     "maxGroupSize": 10,
-    "difficulty": "difficult",
-    "guides": [
-      "5c8a21d02f8fb814b56fa189",
-      "5c8a23412f8fb814b56fa18c",
-      "5c8a1f4e2f8fb814b56fa185"
-    ],
-    "price": 997,
-    "summary": "Exciting adventure in the snow with snowboarding and skiing",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-    "imageCover": "tour-3-cover.jpg",
+    "difficulty": "easy",
+    "guides": ["5c8a24282f8fb814b56f4448", "5c8a24a02f8fb814b56f8888"],
+    "price": 5000,
+    "summary": "A peaceful journey to Lumbini, the birthplace of Lord Buddha, filled with history, spirituality, and cultural exploration.",
+    "description": "Experience the tranquility and spiritual essence of Lumbini, Nepal — the sacred birthplace of Lord Buddha. Walk through the beautiful monastic zones, visit the Maya Devi Temple, and explore ancient ruins and serene gardens that hold deep historical and religious significance.\n\nThis journey offers a perfect blend of peaceful reflection and cultural discovery. From sacred stupas to beautifully constructed monasteries from around the world, every step in Lumbini connects you to centuries of Buddhist heritage and timeless peace.",
+    "imageCover": "lumbini1.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c295c",
-        "description": "Aspen Highlands",
+        "description": "Lumbini",
         "type": "Point",
-        "coordinates": [-106.855385, 39.182677],
+        "coordinates": [27.9207, 82.7347],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295b",
-        "description": "Beaver Creek",
+        "description": "Lumbini Palace Resort",
         "type": "Point",
-        "coordinates": [-106.516623, 39.60499],
+        "coordinates": [27.58464, 83.37683],
         "day": 2
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Las Vegas, USA",
+      "description": "Chitwan, Nepal",
       "type": "Point",
-      "coordinates": [-115.172652, 36.110904],
-      "address": "3663 S Las Vegas Blvd, Las Vegas, NV 89109, USA"
+      "coordinates": [27.5291, 84.3542],
+      "address": "Chitwan, Bagmati Province, 44200, Nepal"
     },
     "ratingsAverage": 4.7,
     "ratingsQuantity": 7,
-    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
+    "images": ["chitwan1.jpg", "chitwan2.jpg", "chitwan3.jpg"],
     "startDates": [
-      "2021-08-05T09:00:00.000Z",
-      "2022-03-20T10:00:00.000Z",
-      "2022-08-12T09:00:00.000Z"
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2961",
-    "name": "The Park Camper",
-    "duration": 10,
+    "name": "Chitwan - Green Heart of Nepal",
+    "duration": 2,
     "maxGroupSize": 15,
     "difficulty": "medium",
-    "guides": [
-      "5c8a21f22f8fb814b56fa18a",
-      "5c8a23412f8fb814b56fa18c",
-      "5c8a201e2f8fb814b56fa186"
-    ],
-    "price": 1497,
-    "summary": "Breathing in Nature in America's most spectacular National Parks",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-    "imageCover": "tour-5-cover.jpg",
+    "guides": ["5c8a245f2f8fb814b56fc45d", "5c8a24402f8fb814b56fb345"],
+    "price": 7000,
+    "summary": "Breathe in the wild beauty of Chitwan National Park, Nepal’s most spectacular jungle escape.",
+    "description": "Discover the untamed wilderness of Chitwan National Park, where lush jungles, rich biodiversity, and thrilling wildlife encounters await. Home to endangered species like the one-horned rhinoceros, Bengal tigers, and gharial crocodiles, Chitwan offers an unforgettable journey into Nepal’s most iconic natural treasure.\n\nExperience peaceful canoe rides along the Rapti River, exciting jeep safaris, and guided jungle walks that bring you face-to-face with the incredible wildlife of the region. Dive into the unique culture of the Tharu community and embrace the perfect harmony of adventure, nature, and tradition in this extraordinary destination.",
+    "imageCover": "chitwan1.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2965",
-        "description": "Zion Canyon National Park",
+        "description": "Narayani Sightseeing",
         "type": "Point",
-        "coordinates": [-112.987418, 37.198125],
+        "coordinates": [27.6833, 84.4167],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2964",
-        "description": "Antelope Canyon",
+        "description": "Chitwan National Park",
         "type": "Point",
-        "coordinates": [-111.376161, 36.86438],
-        "day": 4
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2963",
-        "description": "Grand Canyon National Park",
-        "type": "Point",
-        "coordinates": [-112.115763, 36.058973],
-        "day": 5
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2962",
-        "description": "Joshua Tree National Park",
-        "type": "Point",
-        "coordinates": [-116.107963, 34.011646],
-        "day": 9
+        "coordinates": [27.5193, 84.3135],
+        "day": 2
       }
     ]
   },
   {
     "startLocation": {
-      "description": "NYC, USA",
+      "description": "Kathmandu, Nepal",
       "type": "Point",
-      "coordinates": [-73.985141, 40.75894],
-      "address": "Manhattan, NY 10036, USA"
+      "coordinates": [27.7103, 85.3222],
+      "address": "Kathmandu, Bagmati Province, 44600, Nepal"
     },
     "ratingsAverage": 4.6,
     "ratingsQuantity": 5,
-    "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
+    "images": ["ktm1.jpg", "ktm2.jpg", "ktm3.jpg"],
     "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295d",
-    "name": "The City Wanderer",
-    "duration": 9,
+    "name": "Kathmandu - Trails of Temples",
+    "duration": 3,
     "maxGroupSize": 20,
     "difficulty": "easy",
-    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
-    "price": 1197,
-    "summary": "Living the life of Wanderlust in the US' most beatiful cities",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
-    "imageCover": "tour-4-cover.jpg",
+    "guides": ["5c8a24822f8fb814b56fc180", "5c8a24a02f8fb814b56fc18c"],
+    "price": 12000,
+    "summary": "Living the adventure in Kathmandu, Nepal's vibrant capital filled with ancient temples, bustling streets, and breathtaking valley views.",
+    "description": "Discover the heart of Nepal in Kathmandu — a city where ancient traditions and modern life blend seamlessly. Explore majestic temples, colorful markets, and centuries-old courtyards that tell stories of a rich cultural past. From the sacred Swayambhunath Stupa to the lively streets of Thamel, every corner of Kathmandu invites you to experience something new.Wander through the UNESCO World Heritage Sites, taste local flavors, and immerse yourself in the sights and sounds of this unforgettable city. Whether you're chasing history, spirituality, or local adventure, Kathmandu promises a journey you'll always remember!",
+    "imageCover": "ktm1.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2960",
-        "description": "New York",
+        "description": "Swoyambhu Mahachaitya",
         "type": "Point",
-        "coordinates": [-73.967696, 40.781821],
+        "coordinates": [27.7149, 85.2904],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295f",
-        "description": "Los Angeles",
+        "description": "Central Zoo",
         "type": "Point",
-        "coordinates": [-118.324396, 34.097984],
-        "day": 3
+        "coordinates": [27.6727, 85.3118],
+        "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c295e",
-        "description": "San Francisco",
+        "description": "Pashupatinath Temple",
         "type": "Point",
-        "coordinates": [-122.408865, 37.787825],
-        "day": 5
+        "coordinates": [27.7105, 85.3488],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0006",
+        "description": "Chandragiri Cable Car",
+        "type": "Point",
+        "coordinates": [27.68655, 85.21443],
+        "day": 3
       }
     ]
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "Janakpur,Nepal",
       "type": "Point",
-      "coordinates": [-118.803461, 34.006072],
-      "address": "29130 Cliffside Dr, Malibu, CA 90265, USA"
-    },
-    "ratingsAverage": 3.9,
-    "ratingsQuantity": 7,
-    "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
-    "startDates": [
-      "2021-07-19T09:00:00.000Z",
-      "2021-09-06T09:00:00.000Z",
-      "2022-03-18T10:00:00.000Z"
-    ],
-    "_id": "5c88fa8cf4afda39709c2966",
-    "name": "The Sports Lover",
-    "duration": 14,
-    "maxGroupSize": 8,
-    "difficulty": "difficult",
-    "guides": [
-      "5c8a21f22f8fb814b56fa18a",
-      "5c8a1f292f8fb814b56fa184",
-      "5c8a1f4e2f8fb814b56fa185"
-    ],
-    "price": 2997,
-    "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
-    "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
-    "imageCover": "tour-6-cover.jpg",
-    "locations": [
-      {
-        "_id": "5c88fa8cf4afda39709c296b",
-        "description": "Point Dume Beach",
-        "type": "Point",
-        "coordinates": [-118.809361, 34.003098],
-        "day": 1
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c296a",
-        "description": "Venice Skate Park",
-        "type": "Point",
-        "coordinates": [-118.47549, 33.987367],
-        "day": 4
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2969",
-        "description": "San Diego Skydive",
-        "type": "Point",
-        "coordinates": [-116.830104, 33.022843],
-        "day": 6
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2968",
-        "description": "Kern River Rafting",
-        "type": "Point",
-        "coordinates": [-118.4547, 35.710359],
-        "day": 7
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2967",
-        "description": "Yosemite National Park",
-        "type": "Point",
-        "coordinates": [-119.600492, 37.742371],
-        "day": 10
-      }
-    ]
-  },
-  {
-    "startLocation": {
-      "description": "Utah, USA",
-      "type": "Point",
-      "coordinates": [-109.55099, 37.283469],
-      "address": "Bluff, UT 84512, USA"
+      "coordinates": [26.7275, 85.9257],
+      "address": "Janakpur, Madhesh Province, Nepal"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
-    "images": ["tour-8-1.jpg", "tour-8-2.jpg", "tour-8-3.jpg"],
+    "images": ["janakpur1.webp", "janakpur2.jpg", "janakpur3.jpg"],
     "startDates": [
-      "2021-03-23T10:00:00.000Z",
-      "2021-10-25T09:00:00.000Z",
-      "2022-01-30T10:00:00.000Z"
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c2970",
-    "name": "The Star Gazer",
-    "duration": 9,
-    "maxGroupSize": 8,
-    "difficulty": "medium",
-    "guides": ["5c8a21d02f8fb814b56fa189", "5c8a1f292f8fb814b56fa184"],
-    "price": 2997,
-    "summary": "The most remote and stunningly beautiful places for seeing the night sky",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageCover": "tour-8-cover.jpg",
+    "_id": "5c88fa8cf4afda39709c0007",
+    "name": "Sacred Janakpur Journey",
+    "duration": 2,
+    "maxGroupSize": 5,
+
+    "difficulty": "easy",
+    "guides": ["5c8a24282f8fb814b56fb55c", "5c8a24402f8fb814b56fc34d"],
+    "price": 5000,
+    "summary": "Immerse yourself in the spiritual heritage and vibrant traditions of Janakpur, Nepal through sacred journeys and cultural discovery.",
+    "description": "Venture into the sacred heart of Janakpur, Nepal - a city revered as the birthplace of Goddess Sita and a living museum of Mithila art and Hindu devotion. Marvel at the grandeur of the Janaki Mandir, stroll through ancient ponds and bustling markets, and witness the soul-stirring rituals that define this holy destination. From the vibrant celebration of Bibaha Panchami to the intricate wall paintings that tell timeless stories, every corner of Janakpur invites reflection and wonder. Ideal for pilgrims, history lovers, and cultural explorers, this journey offers a deeply meaningful encounter with Nepal’s spiritual and artistic legacy.",
+    "imageCover": "janakpur2.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c2973",
-        "description": "Natural Bridges National Monument",
+        "_id": "5c88fa8cf4afda39709c0008",
+        "description": "Janaki Temple",
         "type": "Point",
-        "coordinates": [-109.99953, 37.629017],
+        "coordinates": [26.7304, 85.9256],
         "day": 1
       },
       {
-        "_id": "5c88fa8cf4afda39709c2972",
-        "description": "Horseshoe Bend",
+        "_id": "5c88fa8cf4afda39709c0009",
+        "description": "Ganga Sagar",
         "type": "Point",
-        "coordinates": [-111.50954, 36.883269],
-        "day": 3
+        "coordinates": [26.7287, 85.9301],
+        "day": 1
       },
       {
-        "_id": "5c88fa8cf4afda39709c2971",
-        "description": "Death Valley National Park",
+        "_id": "5c88fa8cf4afda39709c0009",
+        "description": "Ram Mandir",
         "type": "Point",
-        "coordinates": [-117.07399, 36.501435],
-        "day": 6
+        "coordinates": [26.7289, 85.9283],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0010",
+        "description": "Dhanusadham",
+        "type": "Point",
+        "coordinates": [26.8712, 86.0428],
+        "day": 2
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Yellowknife, CAN",
+      "description": "Kaski, Nepal",
       "type": "Point",
-      "coordinates": [-114.406097, 62.439943],
-      "address": "Yellowknife, NT X1A 2L2, Canada"
+      "coordinates": [28.3781, 83.81],
+      "address": "Ghandruk, Gandaki Province, 33700, Nepal"
+    },
+    "ratingsAverage": 5,
+    "ratingsQuantity": 9,
+    "images": ["Ghandruk1.jpg", "Ghandruk2.jpg", "Ghandruk3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0011",
+    "name": "Ghandruk - Where the Himalayas Begin",
+    "duration": 3,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "guides": ["5c8a24822f8fb814b56ff554", "5c8a245f8f8fb814b56fe184"],
+    "price": 9000,
+    "summary": "Scenic village escape with Himalayan views, Gurung culture, and trekking trails in Ghandruk, Nepal.",
+    "description": "Discover the charm of Ghandruk, a traditional Gurung village nestled in the Annapurna region of Nepal. Surrounded by snow-capped peaks and terraced fields, this peaceful mountain village offers stunning views of Annapurna South, Hiunchuli, and Machhapuchhre.Walk through stone-paved paths, visit cultural museums, and experience warm local hospitality. Whether you’re trekking to Annapurna Base Camp or simply soaking in the scenery, Ghandruk offers a serene Himalayan experience unlike any other.",
+    "imageCover": "Ghandruk1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0012",
+        "description": "Ghandruk ",
+        "type": "Point",
+        "coordinates": [28.3781, 83.81],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0013",
+        "description": "Landruk",
+        "type": "Point",
+        "coordinates": [28.3722, 83.8256],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0014",
+        "description": "Dhampus ",
+        "type": "Point",
+        "coordinates": [28.3069, 83.842],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Myagdi, Nepal",
+      "type": "Point",
+      "coordinates": [28.6029, 83.3362],
+      "address": "Poon Hill, Ghorepani, Myagdi District, Gandaki Province, Nepal"
+    },
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 6,
+    "images": ["poonhill1.jpg", "poonhill2.jpg", "poonhill3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0015",
+    "name": "Poonhill - Stairway to Sunrise",
+    "duration": 4,
+    "maxGroupSize": 6,
+    "difficulty": "medium",
+    "guides": ["5c8a24282f8fb814b56f4448", "5c8a24a02f8fb814b56f8888"],
+    "price": 10000,
+    "summary": "A scenic journey to Poon Hill through Ghorepani, offering breathtaking Himalayan views, peaceful villages, and an unforgettable sunrise above the clouds.",
+    "description": "Discover the natural beauty of Poon Hill, Nepal - a peaceful trek through forests and villages leading to one of the best sunrise views in the Himalayas.Enjoy stunning views of Annapurna and Dhaulagiri, walk through rhododendron-covered trails, and experience the calm and charm of mountain life. This short yet rewarding journey is perfect for nature lovers and those seeking quiet moments in the mountains.",
+    "imageCover": "poonhill1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0016",
+        "description": "ulleri",
+        "type": "Point",
+        "coordinates": [28.4013, 83.6932],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0017",
+        "description": "Ghorepani",
+        "type": "Point",
+        "coordinates": [28.4006, 83.6958],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0018",
+        "description": "Poon Hill",
+        "type": "Point",
+        "coordinates": [28.4007, 83.6919],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0019",
+        "description": "Pokhara",
+        "type": "Point",
+        "coordinates": [28.2096, 83.9856],
+        "day": 4
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Mugu, Nepal",
+      "type": "Point",
+      "coordinates": [29.5286, 82.0625],
+      "address": "Rara, Karnali Province, 21300, Nepal"
     },
     "ratingsAverage": 4.7,
     "ratingsQuantity": 7,
-    "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
+    "images": ["rara1.jpg", "rara2.jpg", "rara3.jpg"],
     "startDates": [
-      "2021-12-16T10:00:00.000Z",
-      "2022-01-16T10:00:00.000Z",
-      "2022-12-12T10:00:00.000Z"
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c2974",
-    "name": "The Northern Lights",
-    "duration": 3,
-    "maxGroupSize": 12,
-    "difficulty": "easy",
-    "guides": [
-      "5c8a21f22f8fb814b56fa18a",
-      "5c8a201e2f8fb814b56fa186",
-      "5c8a23412f8fb814b56fa18c"
-    ],
-    "price": 1497,
-    "summary": "Enjoy the Northern Lights in one of the best places in the world",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-    "imageCover": "tour-9-cover.jpg",
+    "_id": "5c88fa8cf4afda39709c0020",
+    "name": "Rara - Shining Mirror of Mountains",
+    "duration": 4,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "guides": ["5c8a245f2f8fb814b56fc45d", "5c8a24402f8fb814b56fb345"],
+    "price": 15000,
+    "summary": "Peaceful escape to Nepal's largest lake, surrounded by alpine forests and mountain beauty in Rara, Nepal.",
+    "description": "Journey to Rara, the hidden gem of Nepal nestled in the remote Mugu district of Karnali Province. Home to Rara Lake - the largest and deepest lake in the country — this serene destination offers crystal-clear waters, lush pine forests, and panoramic Himalayan views.Ideal for nature lovers and solitude seekers, Rara is a peaceful retreat far from the crowds. Explore Rara National Park, spot rare wildlife, and soak in the tranquil beauty of Nepal's untouched wilderness.",
+    "imageCover": "rara1.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c2975",
-        "description": "Yellowknife",
+        "_id": "5c88fa8cf4afda39709c0021",
+        "description": "Surkhet",
         "type": "Point",
-        "coordinates": [-114.406097, 62.439943],
+        "coordinates": [28.5175, 81.7787],
         "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0022",
+        "description": "Kalikot",
+        "type": "Point",
+        "coordinates": [29.2089, 81.7349],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0023",
+        "description": "Rara Lake",
+        "type": "Point",
+        "coordinates": [29.5239, 82.0788],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0024",
+        "description": "Kohalpur",
+        "type": "Point",
+        "coordinates": [28.2118, 81.7131],
+        "day": 4
       }
     ]
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "Kaski, Nepal",
       "type": "Point",
-      "coordinates": [-122.29286, 38.294065],
-      "address": "560 Jefferson St, Napa, CA 94559, USA"
+      "coordinates": [28.2622, 84.0167],
+      "address": "Annapurna Base Camp, Gandaki Province, 33700, Nepal"
     },
-    "ratingsAverage": 4.4,
-    "ratingsQuantity": 7,
-    "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 5,
+    "images": ["abc1.jpg", "abc2.jpg", "abc3.jpg"],
     "startDates": [
-      "2021-02-12T10:00:00.000Z",
-      "2021-04-14T09:00:00.000Z",
-      "2021-09-01T09:00:00.000Z"
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c296c",
-    "name": "The Wine Taster",
+    "_id": "5c88fa8cf4afda39709c0025",
+    "name": "ABC Trekking Expedition",
     "duration": 5,
-    "maxGroupSize": 8,
-    "difficulty": "easy",
-    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a23412f8fb814b56fa18c"],
-    "price": 1997,
-    "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "imageCover": "tour-7-cover.jpg",
+    "maxGroupSize": 20,
+    "difficulty": "medium",
+    "guides": ["5c8a24a02f8fb814b56fc18c", "5c8a24822f8fb814b56fc180"],
+    "price": 15000,
+    "summary": "Trekking to Annapurna Base Camp - a scenic journey through mountain villages, green valleys, and snowy trails, all leading to stunning views of the Himalayas.",
+    "description": "Experience the magic of the Annapurna Base Camp trek - a journey through peaceful villages, dense forests, and breathtaking mountain views. Walk alongside rivers, cross swinging bridges, and climb stone steps as you head toward the heart of the Himalayas. Along the way, discover warm local hospitality, stunning landscapes, and the powerful beauty of Annapurna towering above. Whether you're chasing adventure or mountain serenity, this trek offers an unforgettable escape into nature.",
+    "imageCover": "abc1.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c296f",
-        "description": "Beringer Vineyards",
+        "_id": "5c88fa8cf4afda39709c0026",
+        "description": "Sinuwa",
         "type": "Point",
-        "coordinates": [-122.479887, 38.510312],
+        "coordinates": [28.4301, 83.8327],
         "day": 1
       },
       {
-        "_id": "5c88fa8cf4afda39709c296e",
-        "description": "Clos Pegase Winery & Tasting Room",
+        "_id": "5c88fa8cf4afda39709c0027",
+        "description": "Machhapuchhre Base Camp",
         "type": "Point",
-        "coordinates": [-122.582948, 38.585707],
+        "coordinates": [28.526692, 83.907845],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0028",
+        "description": "Annapurna Base Camp",
+        "type": "Point",
+        "coordinates": [28.53, 83.878],
         "day": 3
       },
       {
-        "_id": "5c88fa8cf4afda39709c296d",
-        "description": "Raymond Vineyard and Cellar",
+        "_id": "5c88fa8cf4afda39709c0029",
+        "description": "Jhinu Danda",
         "type": "Point",
-        "coordinates": [-122.434697, 38.482181],
+        "coordinates": [28.4097, 83.8238],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0030",
+        "description": "Pokhara",
+        "type": "Point",
+        "coordinates": [28.2096, 83.9856],
         "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Lalitpur, Nepal",
+      "type": "Point",
+      "coordinates": [27.6588, 85.3247],
+      "address": "Lalitpur, Bagmati Province, 44700, Nepal"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 9,
+    "images": ["lalitpur1.jpg", "lalitpur2.jpg", "lalitpur3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0031",
+    "name": "Lalitpur Heritage Walk",
+    "duration": 3,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": ["5c8a24282f8fb814b56fb55c", "5c8a24402f8fb814b56fc34d"],
+    "price": 8000,
+    "summary": "Living the charm of Lalitpur, Nepal’s city of art and heritage, where ancient temples, royal courtyards, and peaceful green spaces await discovery.",
+    "description": "Experience the cultural heartbeat of Nepal in Lalitpur — a city where timeless craftsmanship and vibrant local life beautifully come together. Explore the stunning Patan Durbar Square, filled with intricately carved temples, golden shrines, and centuries-old palaces that showcase the city's rich artistic legacy. From the sacred Krishna Mandir to the lively alleys surrounding the square, every corner of Lalitpur offers a glimpse into Nepal’s living history. Take a peaceful break at the Lalitpur Zoo, Nepal’s oldest zoo, where you can enjoy quiet walks and encounter fascinating wildlife in a serene setting. Whether you're chasing ancient stories, architectural marvels, or a relaxing family day, Lalitpur promises a journey full of culture, beauty, and unforgettable experiences!",
+    "imageCover": "lalitpur1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0032",
+        "description": "Patan Durbar Square",
+        "type": "Point",
+        "coordinates": [27.6727, 85.3253],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0033",
+        "description": "Central Zoo",
+        "type": "Point",
+        "coordinates": [27.6727, 85.3118],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0034",
+        "description": "Hiranya Varna Mahavihar",
+        "type": "Point",
+        "coordinates": [27.67536, 85.32447],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Tanahun, Nepal",
+      "type": "Point",
+      "coordinates": [27.917, 84.4068],
+      "address": "Bandipur-04, Thuldhunga, Tanahun District, Gandaki Province, 33904, Nepal"
+    },
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 7,
+    "images": ["bandipur1.jpg", "bandipur2.jpg", "bandipur3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0035",
+    "name": "Mystic Bandipur Trails",
+    "duration": 2,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": ["5c8a24822f8fb814b56ff554", "5c8a245f8f8fb814b56fe184"],
+    "price": 6000,
+    "summary": "Living the allure of Bandipur, a serene hilltop town in Nepal where panoramic Himalayan views, rich Newari heritage, and a peaceful atmosphere create an unforgettable experience.",
+    "description": "Uncover the timeless beauty of Bandipur — a historic Newari settlement gracefully perched above the Marsyangdi River Valley. Here, the distant snow-capped peaks of Annapurna, Dhaulagiri, and Manaslu paint a breathtaking horizon. As you wander through beautifully preserved stone pathways, traditional houses, and vibrant town squares, you’ll step into a living showcase of Nepal’s cultural history. Whether you're watching the golden sunrise from the Tundikhel viewpoint, exploring the mystical depths of Siddha Cave, or simply soaking in the tranquil hilltop ambiance, Bandipur invites you to pause, reflect, and savor its quiet charm. Perfect for leisurely strolls, cultural discoveries, and scenic retreats, Bandipur offers moments that linger long after the journey ends.",
+    "imageCover": "bandipur1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0036",
+        "description": "Bandipur Local Exploration",
+        "type": "Point",
+        "coordinates": [27.917, 84.4068],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0037",
+        "description": "Nature and Caves",
+        "type": "Point",
+        "coordinates": [27.94849, 84.419],
+        "day": 2
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Manang, Nepal",
+      "type": "Point",
+      "coordinates": [28.6667, 84.0167],
+      "address": "Manang, Manang District, Gandaki Province, 33500, Nepal"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 5,
+    "images": ["manang1.jpg", "manang2.jpg", "manang3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0038",
+    "name": "Manang Peaks & Valleys Tour",
+    "duration": 4,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": ["5c8a24282f8fb814b56f4448", "5c8a24a02f8fb814b56f8888"],
+    "price": 12000,
+    "summary": "Experience the breathtaking wonders of Manang, a high-altitude Himalayan haven where pristine lakes, rugged mountain landscapes, and rich Tibetan-influenced culture come together in perfect harmony.",
+    "description": "Nestled deep within the Annapurna region, Manang offers an unforgettable blend of natural beauty and cultural richness. Surrounded by towering peaks like Annapurna II and Gangapurna, this remote valley captivates visitors with its shimmering alpine lakes, including the stunning Tilicho and Gangapurna Lakes. Explore traditional villages adorned with prayer flags and ancient mani stones, reflecting a deep spiritual heritage influenced by Tibetan Buddhism. Whether trekking along serene trails, witnessing crystal-clear waters framed by majestic mountains, or connecting with the warm local communities, Manang invites you to embark on a journey of awe and tranquility. Ideal for adventure seekers and culture lovers alike, this region promises sweeping vistas and soulful experiences that stay with you long after you leave.",
+    "imageCover": "manang1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0039",
+        "description": "Besisahar",
+        "type": "Point",
+        "coordinates": [28.1962, 84.3857],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0040",
+        "description": "Manang Sightseeing",
+        "type": "Point",
+        "coordinates": [28.6667, 84.0167],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0041",
+        "description": "Valley Tour",
+        "type": "Point",
+        "coordinates": [28.6369, 84.0394],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0042",
+        "description": "Manang to Jagat",
+        "type": "Point",
+        "coordinates": [28.4147, 84.4066],
+        "day": 4
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Baglung,Nepal",
+      "type": "Point",
+      "coordinates": [28.2774, 83.5816],
+      "address": "Baglung, Baglung District, Gandaki Province, 33300, Nepal"
+    },
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 9,
+    "images": ["dhorpatan1.jpg", "dhorpatan2.jpg", "dhorpatan3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0043",
+    "name": "Dhorpatan Wilderness Trek",
+    "duration": 3,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": ["5c8a245f2f8fb814b56fc45d", "5c8a24402f8fb814b56fb345"],
+    "price": 8000,
+    "summary": "Discover the rugged beauty of Dhorpatan, Nepal’s only hunting reserve, where vast alpine meadows, diverse wildlife, and pristine forests create an adventurous escape into nature’s untouched realm.",
+    "description": "Set amidst the remote Dhaulagiri Himalayas, Dhorpatan Hunting Reserve offers a rare glimpse into Nepal’s wild heart. Known for its sprawling grasslands, dense pine forests, and rich biodiversity, this protected area is a haven for mountain wildlife, including blue sheep, Himalayan tahr, musk deer, and elusive snow leopards. Visitors can explore tranquil trails that weave through high-altitude landscapes, experience traditional rural communities, and witness spectacular views of snow-capped peaks. Whether you’re trekking across open meadows, birdwatching in pristine habitats, or simply soaking in the serene wilderness, Dhorpatan provides a unique blend of adventure, conservation, and cultural heritage. Perfect for nature enthusiasts and wildlife lovers seeking an off-the-beaten-path experience.",
+    "imageCover": "dhorpatan1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0044",
+        "description": "Camping at Dhorpatan",
+        "type": "Point",
+        "coordinates": [28.5001, 83.0645],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0045",
+        "description": "Dhorpatan Hunting Expedition",
+        "type": "Point",
+        "coordinates": [28.5856, 82.9932],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0046",
+        "description": "Dhorpatan Hunting Expedition",
+        "type": "Point",
+        "coordinates": [28.5856, 82.9932],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Bardiya, Nepal",
+      "type": "Point",
+      "coordinates": [28.3102, 81.4279],
+      "address": "Bardiya, Bardiya District, Lumbini Province, 21800, Nepal"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 5,
+    "images": ["bardiya1.jpg", "bardiya2.jpg", "bardiya3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c0047",
+    "name": "Bardiya Nature & Safari Adventure",
+    "duration": 3,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": ["5c8a24a02f8fb814b56fc18c", "5c8a24822f8fb814b56fc180"],
+    "price": 10000,
+    "summary": "Experience the vibrant wilderness of Bardiya, Nepal’s largest lowland national park, where lush forests, diverse wildlife, and tranquil rivers offer an unforgettable jungle adventure.",
+    "description": "Located in the Terai plains, Bardiya National Park is a sanctuary of biodiversity and natural beauty. Home to Bengal tigers, one-horned rhinoceroses, elephants, and numerous bird species, this protected area invites visitors to explore dense forests, wide grasslands, and serene riverbanks. Trek through untamed jungle trails, observe wildlife in their natural habitats, and connect with the local Tharu communities to experience their unique culture. Whether on a thrilling jungle safari, birdwatching excursion, or peaceful nature walk, Bardiya offers an enriching blend of adventure and conservation. Ideal for wildlife enthusiasts and nature lovers looking to discover Nepal’s hidden wild treasures.",
+    "imageCover": "bardiya1.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c0048",
+        "description": "Village Tour",
+        "type": "Point",
+        "coordinates": [28.316528, 81.387199],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0049",
+        "description": "Jungle Walk",
+        "type": "Point",
+        "coordinates": [28.3649, 81.5596],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c0050",
+        "description": "Jeep Safari",
+        "type": "Point",
+        "coordinates": [28.3649, 81.5596],
+        "day": 3
       }
     ]
   }
