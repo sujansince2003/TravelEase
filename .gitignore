@@ -3,6 +3,6 @@
 # dependencies
 /node_modules
 /.cache
-config.env
+
 
 .vercel
