@@ -6,9 +6,6 @@ process.on('uncaughtException', (err) => {
   console.log(err.name, err.message);
   process.exit(1);
 });
-// The above code handles the error that occurs synchronous in code.
-// The x is not defined so it gets caught.
-// console.log(x);
 
 dotenv.config({ path: './config.env' });
 const app = require('./app');

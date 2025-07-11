@@ -5,12 +5,7 @@ const reviewRouter = require('../routes/reviewRoute');
 
 const router = express.Router();
 
-// POST /tour/abcde123/reviews
-// GET /tour/abcde123/reviews
 router.use('/:tourId/reviews', reviewRouter);
-
-// This is the use of param to define middleware
-// router.param('id', tourController.checkID);
 
 router
   .route('/top-5-cheap')

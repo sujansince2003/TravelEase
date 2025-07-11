@@ -1323,3 +1323,140 @@ body {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
 }
+
+/* CSS Re */
+@media (max-width: 1024px) {
+  .navright {
+    gap: 150px; /* Adjust gap for tablet */
+    width: 100%; /* Take full width */
+    justify-content: center; /* Center items */
+    margin-top: 10px; /* Add some space from logo */
+  }
+
+  .nav-links {
+    gap: 20px; /* Reduce gap between nav items */
+  }
+
+  .nav-links li a {
+    font-size: 1.8rem; /* Slightly smaller font size */
+  }
+
+  .logo-img {
+    margin-right: 20px; /* Reduce margin */
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+    grid-gap: 5rem; /* Adjust gap */
+  }
+
+  .btn {
+    margin-left: 0; /* Remove left margin for button in tablet view */
+    text-align: center;
+    width: 100%; /* Make button full width */
+  }
+
+  .card__footer {
+    grid-template-columns: 1fr; /* Stack footer elements */
+    text-align: center;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Stack navbar items vertically */
+    justify-content: space-between;
+  }
+
+  .logo-img {
+    margin-right: 0;
+    margin-bottom: 10px; /* Add space below logo */
+  }
+
+  .navright {
+    flex-direction: column; /* Stack navright items */
+    gap: 15px; /* Adjust gap */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 10px; /* Reduce gap */
+    width: 100%; /* Full width for nav links */
+  }
+
+  .nav-links li a {
+    font-size: 1.6rem; /* Further reduce font size */
+    padding: 5px 0; /* Add vertical padding */
+  }
+
+  .card-container {
+    grid-template-columns: 1fr; /* Single column for mobile */
+    grid-gap: 4rem; /* Adjust gap */
+  }
+
+  .card__details {
+    grid-template-columns: 1fr; /* Stack card details */
+    grid-row-gap: 1rem;
+  }
+
+  .card__text {
+    margin-bottom: 0.5rem;
+  }
+
+  .btn {
+    padding: 1rem 2rem; /* Smaller padding for buttons */
+    font-size: 1.2rem !important; /* Smaller font size for buttons */
+  }
+
+  .footerBox p {
+    font-size: 1.5rem; /* Smaller font for footer text */
+  }
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay text (centered near middle) */
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(24, 23, 23);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* ======= MEDIA QUERIES ======= */
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .overlay {
+    display: none;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .overlay {
+    display: none;
+  }
+}

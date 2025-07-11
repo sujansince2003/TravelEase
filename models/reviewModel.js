@@ -40,17 +40,6 @@ const reviewSchema = new mongoose.Schema(
 reviewSchema.index({ tour: 1, user: 1 }, { unique: true });
 
 reviewSchema.pre(/^find/, function (next) {
-  /******* This is used for getting data of both tour and user from id ********/
-  /*
-  this.populate({
-    path: 'tour',
-    select: 'name',
-  }).populate({
-    path: 'user',
-    select: 'photo user',
-  });
-  */
-
   /******* This is used for getting data of  user from id  and only id from tour********/
   this.populate({
     path: 'user',
@@ -97,8 +86,6 @@ reviewSchema.pre(/^findOneAnd/, async function (next) {
 });
 
 reviewSchema.post(/^findOneAnd/, async function () {
-  // This doesn't work here as query has already been executed.
-  // await this.findOne();
   await this.r.constructor.calcAverageRatings(this.r.tour);
 });
 

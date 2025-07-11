@@ -27,19 +27,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(cors());
 // The use of cors() is implemented in Api.
 
-// It can be used in specif route only too. app.use('/api/v1/tours', cors(), tourRouter);
-// The cors()  is used for only tours route in above route.
-
-// Access Control Allow Origin
-// app.use(cors(){
-//   origin: 'https://natours.com'
-// })
-// api.natours.com frontend: natours.com
-//  This will allow https://natours.com to create requests at api.natours.com.
-
 app.options('*', cors());
 // app.options('/api/v1/tours/:id', cors());
-// The preflight phase can also be used for specific route.
 
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
@@ -92,9 +81,6 @@ app.use(compression());
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
 
-  /****** This shows the cookie that is being used as Id for identifying *******/
-  // console.log(req.cookies);
-
   next();
 });
 
@@ -108,6 +94,10 @@ app.get('/logout', (req, res) => {
     expires: new Date(0), // Set to a past date to remove the cookie
   });
   res.redirect('/'); // Redirect to home page
+});
+
+app.get('/.well-known/*', (req, res) => {
+  res.status(204).end(); // No content
 });
 
 app.use('/api/v1/tours', tourRouter);

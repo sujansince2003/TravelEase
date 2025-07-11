@@ -55,12 +55,6 @@ if (userDataForm)
     form.append('photo', document.getElementById('photo').files[0]);
 
     updateSettings(form, 'data');
-    /****** The selection can be done in better way as above. **********/
-    /*
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    updateSettings({ name, email }, 'data');
-    */
   });
 
 if (userPasswordForm)

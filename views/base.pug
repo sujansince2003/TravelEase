@@ -26,3 +26,13 @@ html(lang="en")
         //- script(src='/js/login.js')
         script(src="https://js.stripe.com/v3/")
         script(src='/js/bundle.js')
+        script.
+            document.addEventListener('DOMContentLoaded', () => {
+                const toggleBtn = document.querySelector('.js--nav-toggle');
+                const navs = document.querySelectorAll('.nav');
+
+                toggleBtn.addEventListener('click', () => {
+                navs.forEach(nav => nav.classList.toggle('nav--open'));
+                });
+            });
+

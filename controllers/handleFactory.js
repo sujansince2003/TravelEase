@@ -79,8 +79,6 @@ exports.getAll = (Model) =>
       .limitFields()
       .paginate();
 
-    // The explain() is used to expand the query with different result.
-    // const doc = await features.query.explain();
     const doc = await features.query;
 
     //Send Response

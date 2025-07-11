@@ -5,19 +5,6 @@ const sharp = require('sharp');
 const AppError = require('../utils/appError');
 const factory = require('./handleFactory');
 
-/*****  Use of multer storage is no longer necessary as we save image in memory. *****/
-/*
-const multerStorage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'public/img/users');
-  },
-  filename: (req, file, cb) => {
-    const extension = file.mimetype.split('/')[1];
-    cb(null, `user-${req.user.id}-${Date.now()}.${extension}`);
-  },
-});
-*/
-
 const multerStorage = multer.memoryStorage();
 
 const multerFilter = (req, file, cb) => {
@@ -118,7 +105,6 @@ exports.createUser = (req, res) => {
 };
 
 /****** The use of factory model to update User. *******/
-// Do not update password with this
 exports.updateUser = factory.updateOne(User);
 
 /****** The use of factory model to delete User. *******/

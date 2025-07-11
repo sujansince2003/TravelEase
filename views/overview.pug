@@ -1,6 +1,12 @@
 extends base
 
 block content
+    .hero
+        img.hero-img(src="/img/mainPhoto.jpg", alt="Mountain View")
+        .overlay
+            h1 TravelEase: Book your next Tour
+    .heading-tour
+        span Our Tour Packages
     main.main
         .card-container
             each tour in tours
@@ -22,7 +28,7 @@ block content
                         .card__data
                             svg.card__icon
                                 use(xlink:href='/img/icons.svg#icon-calendar')
-                            span= tour.startDates[0].toLocaleString('en-us', {month: 'long', year: 'numeric'})
+                            span= tour.difficulty
                         .card__data
                             svg.card__icon
                                 use(xlink:href='/img/icons.svg#icon-flag')

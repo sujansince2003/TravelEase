@@ -3,7 +3,6 @@ export const hideAlert = () => {
   if (el) el.parentElement.removeChild(el);
 };
 
-// type is success or error
 export const showAlert = (type, message) => {
   hideAlert();
   const markup = `<div class="alert alert--${type}">${message}</div>`;
