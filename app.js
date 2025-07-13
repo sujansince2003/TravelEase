@@ -85,7 +85,7 @@ app.use((req, res, next) => {
 });
 
 // Route
-
+app.use(express.urlencoded({ extended: true }));
 app.use('/', viewRouter);
 
 app.get('/logout', (req, res) => {

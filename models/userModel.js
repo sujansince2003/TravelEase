@@ -2,26 +2,72 @@ const crypto = require('crypto');
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
+const allowedDomains = [
+  'gmail.com',
+  'yahoo.com',
+  'outlook.com',
+  'hotmail.com',
+  'icloud.com',
+  'protonmail.com',
+];
 
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, 'A user must have a name!!!'],
+    validate: {
+      validator: function (val) {
+        // Must contain at least two words, each made of alphabetic letters only
+        return /^[A-Za-z]+(?:\s+[A-Za-z]+)+$/.test(val.trim());
+      },
+      message:
+        'Please enter your full name (first and last), using alphabets only.',
+    },
   },
+
   email: {
     type: String,
-    required: [true, 'A use must have Email!!'],
+    required: [true, 'A user must have an Email!'],
     unique: true,
     lowercase: true,
-    validate: [validator.isEmail, 'Use a valid Email!!'],
+    validate: [
+      {
+        validator: validator.isEmail,
+        message: 'Use a valid Email!',
+      },
+      {
+        validator: function (val) {
+          if (!val) return false;
+
+          const [username, domain] = val.split('@');
+          if (!domain || !allowedDomains.includes(domain.toLowerCase())) {
+            return false;
+          }
+
+          // Disallow usernames that are only digits
+          if (/^\d+$/.test(username)) {
+            return false;
+          }
+
+          if (username.length < 6) {
+            return false;
+          }
+
+          return true;
+        },
+        message:
+          'Please use a valid Email Address with at least 6 characters long and not all digits!',
+      },
+    ],
   },
+
   photo: {
     type: String,
     default: 'default.jpg',
   },
   role: {
     type: String,
-    enum: ['user', 'admin', 'guide', 'lead-guide'],
+    enum: ['user', 'admin', 'guide'],
     default: 'user',
   },
   password: {

@@ -4,18 +4,24 @@ block content
   main.main
     .signup-form
       h2.heading-secondary.ma-bt-lg Create your account
-      form.form.form--signup
+      form.form.form--signup(method='POST', action='/signup')
         .form__group
           label.form__label(for='name') Your name
-          input#name.form__input(type='text', placeholder='Enter Your name', required)
+          input#name.form__input(type='text', name='name', placeholder='Enter Your name', required)
+
         .form__group
           label.form__label(for='email') Email address
-          input#email.form__input(type='email', placeholder='Your email.com', required)
+          input#email.form__input(type='email', name='email', placeholder='Your email.com', required)
+
         .form__group.ma-bt-md
           label.form__label(for='password') Password
-          input#password.form__input(type='password', placeholder='••••••••', required, minlength='8')
+          input#password.form__input(type='password', name='password', placeholder='••••••••', required, minlength='8')
+
         .form__group.ma-bt-md
           label.form__label(for='password-confirm') Confirm password
-          input#password-confirm.form__input(type='password', placeholder='••••••••', required, minlength='8')
+          input#password-confirm.form__input(type='password', name='passwordConfirm', placeholder='••••••••', required, minlength='8')
+
         .form__group
-          button.btn.btn--green Sign Up
+          button.btn.btn--green(type='submit') Sign Up
+
+
