@@ -9,31 +9,25 @@ const handleCastErrorDB = (err) => {
 };
 
 const handleDuplicateFieldsDB = (err) => {
-  const value = err.keyValue.name;
-  const message = `Duplicate Field value: ${value} !!! Please use another value`;
-
+  const value = Object.values(err.keyValue)[0]; // dynamically get duplicate field value
+  const message = `Duplicate field value: "${value}". Please use another value!`;
   return new AppError(message, 400);
 };
 
 const handleValidationErrorDB = (err) => {
   const errors = Object.values(err.errors).map((el) => el.message);
-
-  const message = `Invalid Input data. ${errors.join('. ')}`;
-
+  const message = `Invalid input data. ${errors.join('. ')}`;
   return new AppError(message, 400);
 };
 
-const handleJWTError = () => {
-  return new AppError('Invalid Token! Please tyr agani!!', 401);
-};
-
-const handleJWTExpiredError = () => {
-  return new AppError('Your token has expired. Please login again!!', 401);
-};
+const handleJWTError = () =>
+  new AppError('Invalid token! Please try again.', 401);
+const handleJWTExpiredError = () =>
+  new AppError('Your token has expired. Please login again.', 401);
 
 const sendErrorDev = (err, req, res) => {
-  // A) API
   if (req.originalUrl.startsWith('/api')) {
+    // API error response
     return res.status(err.statusCode).json({
       status: err.status,
       error: err,
@@ -42,53 +36,50 @@ const sendErrorDev = (err, req, res) => {
     });
   }
 
-  // B) RENDER WEBSITE
+  // Rendered website error response
   console.error('ERROR', err);
-
-  return res.status(err.statusCode).render('error', {
+  return res.status(err.statusCode).render('signup', {
     title: 'Something went wrong!',
-    msg: err.message,
+    error: err.message,
+    formData: req.body,
   });
 };
 
 const sendErrorProd = (err, req, res) => {
-  // A) API
   if (req.originalUrl.startsWith('/api')) {
-    // A) Operational, trusted error: send message to client
+    // API
     if (err.isOperational) {
       return res.status(err.statusCode).json({
         status: err.status,
         message: err.message,
       });
     }
-    // B) Programming or other unknown error: don't leak error details
     console.error('ERROR', err);
-
     return res.status(500).json({
       status: 'error',
-      message: 'Something went  wrong!',
+      message: 'Something went very wrong!',
     });
   }
 
-  // RENDER WEBSITE
-  // A) Operational, trusted error: send message to client
+  // Rendered website (like signup form)
   if (err.isOperational) {
-    console.log(err);
-    return res.status(err.statusCode).render('error', {
-      title: 'Something went wrong!',
-      msg: err.message,
+    return res.status(err.statusCode).render('signup', {
+      title: 'Signup Error',
+      error: err.message,
+      formData: req.body,
     });
   }
-  // B) Programming or other unknown error: don't leak error details
-  console.error('ERROR', err);
 
-  // 2) Send generic message
-  return res.status(err.statusCode).render('error', {
+  // Unknown error
+  console.error('ERROR', err);
+  return res.status(500).render('signup', {
     title: 'Something went wrong!',
-    msg: 'Please try again later.',
+    error: 'Please try again later.',
+    formData: req.body,
   });
 };
 
+// Exported middleware
 module.exports = (err, req, res, next) => {
   err.statusCode = err.statusCode || 500;
   err.status = err.status || 'error';
@@ -96,16 +87,14 @@ module.exports = (err, req, res, next) => {
   if (process.env.NODE_ENV === 'development') {
     sendErrorDev(err, req, res);
   } else if (process.env.NODE_ENV === 'production') {
-    let error = { ...err };
-    error.message = err.message;
+    let error = Object.create(err);
 
+    // Handle specific errors
     if (error.name === 'CastError') error = handleCastErrorDB(error);
     if (error.code === 11000) error = handleDuplicateFieldsDB(error);
-    if (error._message === 'Validation failed')
+    if (error.name === 'ValidationError')
       error = handleValidationErrorDB(error);
-
     if (error.name === 'JsonWebTokenError') error = handleJWTError();
-
     if (error.name === 'TokenExpiredError') error = handleJWTExpiredError();
 
     sendErrorProd(error, req, res);

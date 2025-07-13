@@ -82,8 +82,8 @@ app.use((req, res, next) => {
   next();
 });
 
-// 2. Routes (ALL your specific API routes and view routes here)
-// View routes
+
+app.use(express.urlencoded({ extended: true }));
 app.use('/', viewRouter);
 
 app.get('/logout', (req, res) => {
