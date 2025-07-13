@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const checkEnvVars = require('./utils/checkEnv');
 
 process.on('uncaughtException', (err) => {
   console.log('Uncaught Exception');
@@ -10,6 +11,7 @@ process.on('uncaughtException', (err) => {
 dotenv.config({ path: './config.env' });
 const app = require('./app');
 
+checkEnvVars(['DATABASE', 'DATABASE_PASSWORD', 'PORT']);
 const DB = process.env.DATABASE.replace(
   '<PASSWORD>',
   process.env.DATABASE_PASSWORD,
@@ -22,7 +24,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('Suceesful'));
+  .then(() => console.log('Successfully connected to DB'));
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
